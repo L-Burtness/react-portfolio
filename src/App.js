@@ -20,6 +20,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        <barChart/>
       </div>
     );
   }
