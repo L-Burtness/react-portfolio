@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import BarChart from './BarChart'
+import WorldMap from './worldMap';
 
 class App extends Component {
   render() {
@@ -22,7 +23,8 @@ class App extends Component {
         </header>
 
         <body className="App-body">
-          <BarChart data={[5,10,1,3]} size={[500,500]}/>
+          {/* <BarChart/> */}
+          <WorldMap/>
         </body>
       </div>
     );
