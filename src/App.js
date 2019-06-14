@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import BarChart from './BarChart'
+import NavBar from './navBar';
 import WorldMap from './worldMap';
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
         </header>
 
         <body className="App-body">
-          {/* <BarChart/> */}
+          <NavBar/>
           <WorldMap/>
         </body>
       </div>

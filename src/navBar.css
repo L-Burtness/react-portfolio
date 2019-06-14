@@ -1,0 +1,18 @@
+.navBar-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-areas: 
+        'about' 'projects' 'other';
+}
+
+.navBar-about {
+    grid-area: about;
+}
+
+.navBar-projects {
+    grid-area: ptojects;
+}
+
+.navBar-other {
+    grid-area: other;
+}
